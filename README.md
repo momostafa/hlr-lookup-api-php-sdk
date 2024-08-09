@@ -18,7 +18,8 @@ Copy the contents of `src` into the "include path" of your project.
 
 **Usage Client**
 ```php
-include('HlrLookupClient.class.php');
+//include('HlrLookupClient.class.php');
+use HlrLookup\v2\HlrLookupClient;
 
 $client = new HlrLookupClient(
     'YOUR-API-KEY',

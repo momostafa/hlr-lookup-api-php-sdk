@@ -1,6 +1,6 @@
-#!/usr/bin/php
-<?
-include('../src/HLRLookupClient.class.php');
+<?php
+
+use HlrLookup\v2\HLRLookupClient;
 
 /**
  * This file contains examples on how to interact with the HLR Lookup API.

@@ -1,0 +1,24 @@
+{
+    "name": "hlr-lookups/hlr-phpsdk",
+    "description": "PHP implementation of a REST client for the HLR Lookups API (https://www.hlrlookup.com)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hlr-lookups.com",
+            "email": "service@hlr-lookups.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HlrLookup\\v2\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+    
+}
